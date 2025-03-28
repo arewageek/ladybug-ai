@@ -11,6 +11,7 @@ import {
 import { useEffect, useState } from "react";
 // import { MessageActionTypeEnum, useMessages } from "./useMessages";
 import { vapi } from "@/lib/vapi.config";
+import { Error } from "@vapi-ai/web/dist/api";
 
 export enum CALL_STATUS {
   INACTIVE = "inactive",
@@ -65,7 +66,7 @@ export function useVapi() {
       }
     };
 
-    const onError = (e: any) => {
+    const onError = (e: Error) => {
       setCallStatus(CALL_STATUS.INACTIVE);
       console.error(e);
     };

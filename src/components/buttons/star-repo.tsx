@@ -1,13 +1,12 @@
-import React from 'react'
-import { Button } from '../ui/button'
-import { Github } from 'lucide-react'
+"use client"
+
+import GitHubButton from 'react-github-btn'
 
 const StarRepo = () => {
     return (
-        <Button className='cursor-pointer'>
-            <Github size={24} />
-            <span style={{ marginLeft: '0.5rem' }}>Star this repo on GitHub</span>
-        </Button>
+        <GitHubButton href="https://github.com/arewageek/ladybug-ai" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" data-show-count="true" aria-label="Star arewageek/ladybug-2 on GitHub">
+            Star this repo
+        </GitHubButton>
     )
 }
 

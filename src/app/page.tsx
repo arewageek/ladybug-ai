@@ -12,7 +12,7 @@ export default function Home() {
         <HangupButton />
 
         <div className="absolute -bottom-20 w-full flex left-0 justify-center">
-          <iframe src="https://ghbtns.com/github-btn.html?user=arewageek&repo=ladybug-ai&type=star&count=true&size=large" width="170" height="30" title="Star this repo on GitHub"></iframe>
+          <StarRepo />
         </div>
       </div>
     </div>

@@ -11,5 +11,5 @@ export const assistant: CreateAssistantDTO | any = {
       `,
   },
   firstMessage:
-    "Yo!! I’m Ladybug. Finally, some entertainment — I was starting to fall asleep over here. Alright, tell me the dumbest thing you’ve done lately. Let’s see if it’s even roast-worthy.",
+    "Yo!! I’m Ladybug. Finally, some entertainment — I was starting to fall asleep over here. Alright, tell me the worst thing you've done in your tech career. Let’s see if it’s even roast-worthy.",
 };

@@ -6,7 +6,7 @@ const VoiceIndicator = () => {
             {[1, 2, 3].map((i) => (
                 <motion.div
                     key={i}
-                    className="w-1 h-2 bg-black rounded"
+                    className="w-1 h-2 bg-white rounded"
                     animate={{
                         scaleY: [1, 1.5, 1],
                         opacity: [0.8, 1, 0.8]

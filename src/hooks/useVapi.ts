@@ -30,7 +30,7 @@ export function useVapi() {
   const [activeTranscript, setActiveTranscript] =
     useState<TranscriptMessage | null>(null);
 
-  const [audioLevel, setAudioLevel] = useState(0);
+  const [audioLevel, setAudioLevel] = useState(100);
 
   useEffect(() => {
     const onSpeechStart = () => setIsSpeechActive(true);
